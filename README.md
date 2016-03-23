@@ -1,19 +1,15 @@
 # Tree
 
-[![Build Status](https://travis-ci.org/homburg/tree.svg?branch=master)](https://travis-ci.org/homburg/tree)
+[![Build Status](https://travis-ci.org/homburg/go-tree.svg?branch=master)](https://travis-ci.org/homburg/go-tree)
 
-Create an ascii tree (like `$ tree`) from any text
+Create an text-based tree (like `$ tree`) from any text
 using a custom delimiter.
 
-## Cli
+## CLI
 
-https://github.com/homburg/tree/tree/master/cmd/tree
+https://github.com/homburg/tree/
 
-```bash
-$ go get github.com/homburg/tree/cmd/tree
-```
-
-## Usage
+## USAGE
 
 ```go
 package main
@@ -43,15 +39,9 @@ func main() {
 }
 ```
 
-## TODO
-
-- [x] test
-- [x] cli
-  - [x] CaaP (cli as a pipe)
-
 ## LICENSE(S)
 
-MIT 2014 Thomas B Homburg
+MIT 2016 Thomas B Homburg
 
 [LICENSE.md](LICENSE.md)
 [LICENSES.md](LICENSES.md)
