@@ -1,7 +1,7 @@
 .PHONY: benchmark time test travis_install travis vet
 
 test:
-	go test -v ./...
+	go test -v
 
 vet: 
 	go vet
