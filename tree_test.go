@@ -8,7 +8,7 @@ import (
 	"testing"
 )
 
-func ExampleTree() {
+func Exampletree_Format() {
 	file, err := ioutil.ReadFile("files.txt")
 	if err != nil {
 		log.Fatal(err)
